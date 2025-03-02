@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продуктовая Корзина</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/anim-menu-btn.css">
+    <script src="js/anim-menu-btn.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+
+    <link rel="icon" href="img/logo.ico">
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="hat">
+        <a class="nav-link logo" href="#main"><img class="logo" src="img/logo.png" alt="Alt"></a>
+        <h1 class="lttext">Продуктовая Корзина</h1>
+        <h1 class="lttext1">ч<br>б<br>ф</h1>
+        <button class="submenu anim-menu-btn" id="menu-btn">
+            <i class="anim-menu-btn__icon"></i>
+        </button>
+        <a class="nav-link" href="#section" style="margin-left: 1vw;">О нас</a>
+        <a class="nav-link" href="#section1" style="margin-left: 1vw;">Наши спонсоры</a>
+        <a class="nav-link" href="#section2" style="margin-left: 1vw;">Наша команда</a>
+        <a class="nav-link" href="#section3" style="margin-left: 1vw;">Наши проекты</a>
+    </div>
+
+    <div id="main" class="content section">
+
+        <header class="hero-section">
+            <div class="container">
+                <div class="image-wrapper">
+                    <div class="obertka">
+                    <img src="/img/hero.png" alt="Alt">
+                    </div>
+                </div>
+                <div class="text-wrapper">
+                    <div class="text-left">
+                        <p class="maintitle">Откликнись на зов помощи,</p></div>
+                    <div class="text-right">
+                        <p class="maintitle ntwo">твоя помощь бесценна</p></div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="portfolio">
+            <div id="section" class="container section">
+                <main class="gallery">
+                    <div data-speed="1.1" class="gallery__left">
+                        
+                        <video class="gallery__item" src="video/fond.mp4" autoplay muted loop></video>
+
+                    </div>
+                    <div data-speed="1.1" class="gallery__right">
+                        
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__h">Добро пожаловать в галерею нашего фонда!</h2>
+                            <p class="text-block__p">Здесь мы делимся самыми яркими моментами наших мероприятий, акций и благотворительных инициатив.</p>
+                            <p class="text-block__p">Каждый снимок — это история о добрых делах, искренних эмоциях и совместных усилиях, которые делают этот мир лучше.</p>
+                            <p class="text-block__p">Мы гордимся каждым событием, будь то помощь нуждающимся, социальные проекты или волонтёрские акции.</p>
+                            <p class="text-block__p">В этой галерее вы можете увидеть результаты нашей работы, вдохновиться и, возможно, присоединиться к нашему движению добра!</p>
+                            <p class="text-block__p">Спасибо, что разделяете с нами этот путь. Вместе мы можем больше!</p>
+                        </div>
+
+                    </div>
+                </main>
+                <div class="gallery__swiper">
+  
+                        <div class="text_under_two">
+                            <p style="font-size: calc(var(--index) * 1.1);">Вот лишь некоторые из наших достижений:</p>
+                        </div>
+                    
+                              <div class="swiper2 mySwiper">
+                                <div class="swiper-wrapper">
+
+                                  <div class="swiper-slide">
+                                    <div class="alltext">
+                                      <div class="swiper-img">
+                                        <img src="img/police.jpeg" alt="">
+                                      </div>
+                                      <div class="title">8 марта</div>
+                                      <div class="subtitle">2024 года</div>
+                                      <div class="text">
+                                        <p>
+                                          Мы поздравили 300 сотрудниц полиции, организовав для них теплый праздник.
+                                        </p>
+                                    </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="alltext">
+                                      <div class="swiper-img">
+                                        <img src="img/Oyl.webp" alt="">
+                                      </div>
+                                      <div class="title">С 25 марта по 5 мая</div>
+                                      <div class="subtitle">2024 года</div>
+                                      <div class="text">
+                                        <p>
+                                          Мы раздали 55 тонн гуманитарной помощи для пострадавших от паводка по 
+                                          всем эвакуационным пунктам города Актобе а так же доставили 3 газели 
+                                          гуманитарной помощи в Уилский район.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="alltext">
+                                      <div class="swiper-img">
+                                        <img src="img/icecream.jpeg" alt="">
+                                      </div>
+                                      <div class="title">1 июня</div>
+                                      <div class="subtitle">2024 года</div>
+                                      <div class="text">
+                                        <p>
+                                          В рамках Дня защиты детей мы раздали 16 500 порций мороженого и столько же 
+                                          вафельных рожков благодаря поддержке нашего спонсора.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="alltext">
+                                      <div class="swiper-img">
+                                        <img src="img/grjs.png" alt="">
+                                      </div>
+                                      <div class="title">Приняли участие</div>
+                                      <div class="subtitle">20 школ</div>
+                                      <div class="text">
+                                        <p>
+                                          Мы раздали 11 000 вещей от бренда Gloria Jeans, подарив радость семьям, которые в этом нуждались.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="swiper-slide">
+                                    <div class="alltext">
+                                      <div class="swiper-img">
+                                        <img src="img/school.jpeg" alt="">
+                                      </div>
+                                      <div class="title">С октября по ноябрь</div>
+                                      <div class="subtitle">2024 года</div>
+                                      <div class="text">
+                                        <p>
+                                          Более 2000 детей получили новую школьную форму и канцелярские принадлежности.
+                                        </p>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                    <div class="swiper-slide">
+                                      <div class="alltext">
+                                        <div class="swiper-img">
+                                          <img src="img/fam2.jpeg" alt="">
+                                        </div>
+                                        <div class="title">В период новогодних праздников</div>
+                                        <div class="subtitle">С декабря 2024 года по январь 2025 года</div>
+                                        <div class="text">
+                                          <p>
+                                            Мы поздравили 6400 детей из нуждающихся семей, охватив не только наш город, но и Актюбинскую область.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                      <div class="alltext">
+                                        <div class="swiper-img">
+                                          <img src="img/icecng.jpg" alt="">
+                                        </div>
+                                        <div class="title">В пред новогоднюю ночь 31 декабря</div>
+                                        <div class="subtitle">2024 года</div>
+                                        <div class="text">
+                                          <p>
+                                            Раздали более 3000 порций мороженого неравнодушным Актюбинцам тем самым устроив праздник для всех наших граждан.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                      <div class="alltext">
+                                        <div class="swiper-img">
+                                          <img src="img/fam.png" alt="">
+                                        </div>
+                                        <div class="title">За 2024 год</div>
+                                        <div class="text">
+                                          <p>
+                                            Наш бесплатный социальный магазин посетило 1450 нуждающиеся семьи.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                      <div class="alltext">
+                                        <div class="swiper-img">
+                                          <img src="img/police2.jpeg" alt="">
+                                        </div>
+                                        <div class="title">Более 30 крупных КГУ</div>
+                                        <div class="subtitle">Получило помощь</div>
+                                        <div class="text">
+                                          <p>
+                                            Для своих подопечных семей от нашего фонда новую одежду, хоз товары и памперсы.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                      <div class="alltext">
+                                        <div class="swiper-img">
+                                          <img src="img/logo.png" alt="">
+                                        </div>
+                                          <div class="text">
+                                            Мы гордимся своей работой и благодарим каждого, кто поддерживал нас на протяжении этих лет.
+                                            Вместе мы делаем мир немного лучше!<br><br>
+                                            Спасибо за три замечательных года! И вперед – к новым добрым делам!
+                                          </div>
+                                      </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+                              </div>                   
+                </div>
+            </div>
+        </div>
+
+        <div class="Kaspioplata">
+
+            <div id="section4" class="container section">
+
+                <div class="QR">
+
+                    <h1>Поддержите нашу миссию</h1>
+
+                    <div class="QRnT">
+
+                    <img src="img/Kaspibank.png" alt="">
+
+                    <div class="QRnToT">
+
+                    <p>Каждое доброе дело начинается с маленького шага. Ваше пожертвование поможет нам продолжать важную работу: поддерживать нуждающихся, реализовывать благотворительные проекты и дарить надежду тем, кто в ней нуждается.</p>
+                    <p>Отсканируйте QR-код или используйте реквизиты ниже, чтобы внести вклад. Любая сумма — это шаг к большему добру!</p>
+                    <p>Спасибо за вашу поддержку! Вместе мы можем изменить мир к лучшему.</p>
+
+                    <button><a href="https://kaspi.kz/pay/ProduktKorzina?started_from=QR">Оплатить через Kaspi</a></button>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="sponsors">
+            <div id="section1" class="container section">
+                <div class="spnsrs">
+
+                    <div class="cards">
+
+                      <div class="cardsinner">
+
+                        <div class="card">
+                          <img src="img/Azia.png" alt="">
+                          <p class="blk">AZIA<br> Ice cream</p>
+                        </div>
+
+                        <div class="card black">
+                            <img src="img/BMK.png" alt="">
+                            <p>Бурненская Молочная Компания</p>
+                        </div>
+
+                      </div>
+                      <div class="cardsinner">
+
+                        <div class="card">
+                            <img src="img/Baby Still.png" alt="">
+                            <p class="blk">Памперсы Baby Still</p>
+                        </div>
+
+                        <div class="card black">
+                            <img src="img/Domiki.png" alt="">
+                            <p>Благотворительный проект ДОМИКИ</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card">
+                            <img src="img/GJ.png" alt="">
+                            <p class="blk">Брендовая одежда Gloria Jeans</p>
+                        </div>
+
+                        <div class="card black">
+                            <img src="img/LC.png" alt="">
+                            <p>Брендовая одежда LC Waikiki</p>
+                        </div>
+
+                        <div class="card az">
+                            <img src="img/EasyHome.png" alt="">
+                            <p class="blk">Хозтовары Easy Home</p>
+                        </div>
+
+                    </div>
+
+                    <div class="cards az" style="display: none;">
+
+                      <div class="card firsta">
+                        <img src="img/EasyHome.png" alt="">
+                        <p class="blk">Хозтовары Easy Home</p>
+                      </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sotrudniki">
+            <div id="section2" class="container section">
+                <div class="sotr">
+
+                    <div class="card black">
+                        <img src="img/1.jpeg" alt="">
+                        <p class="chlk">Балмагамбетова Айзада Нурлановна</p>
+                        <p style="text-align: left;">Директор учредитель благотворительного фонда "Фонд помощи продуктовая корзина". <br>
+                          Директор учредитель "Бесплатного социального магазина" <br>
+                          Директор филиала Объединения юридических лиц “Ассоциация паллиативной помощи детскому населению Казахстана” в городе Актобе <br>
+                          Организатор руководитель "ВГ Рахим" <br>
+                          Организатор проекта "Food bank". <br>
+                          Руководитель проекта "Бумеранг добра" <br>
+                          Руководитель проекта "Happy Home" <br>
+                          Член попечительского совета 20 школы <br> 
+                          Член попечительского совета 16 школы <br>
+                        </p>
+                    </div>
+
+                    <div class="card black">
+                        <img src="img/2.jpeg" alt="">
+                        <p class="chlk">Ауезова Гульзейнат Сарсенбековна</p>
+                        <p style="text-align: left;">Заместитель директора учредителя Частного Благотворительного Фонда «Фонд помощи продуктовая корзина»<br>
+                           Член попечительского совета Частного Благотворительного Фонда «Фонд помощи продуктовая корзина» <br>
+                           Частный предприниматель Директор ИП<br>
+                           Директор учредитель Ассоциации общества инвалидов</p>
+                    </div>
+
+                    <div class="card black">
+                        <img src="img/3.jpeg" alt="">
+                        <p class="chlk">Черноватая Лариса Николаевна</p>
+                        <p style="text-align: left;">Заместитель директора учредителя Частного Благотворительного Фонда «Фонд помощи продуктовая корзина»<br>
+                           Член попечительского совета Частного Благотворительного Фонда «Фонд помощи продуктовая корзина»<br>
+                           Председатель попечительского совета 16 школы<br>
+                           Член Совета матерей Аналар кенесі</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+
+            <div id="section3" class="container section">
+
+                <div class="section-slider">
+                    <div class="swiper1 mySwiper1">
+                  
+                      <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                          <div class="slide-content">
+                            <div class="slide-inner">
+                                <div class="slide-image">
+                                  <img src="img/Boomerang.jpg" alt="Картинка 1">
+                                </div>
+                                <div class="slide-text">
+                                  <h2>Проект "Бумеранг добра"</h2>
+                                  <p>Проект "Бумеранг добра"  это боксы по приёму вещей для нуждающихся семей. 
+
+                                    Как проходит рабочий процесс боксов? - спросите вы. 
+
+                                    Бумеранг добра  разгружается по мере заполнения,  в дальнейшем сортируются у нас на складе. В котором мы производим раздачу вещей для всех нуждающихся семей. 
+
+                                    Где находятся данные боксы? 
+
+                                    Изменения в локациях наших боксов Бумеранг Добра 
+
+                                    Наш 1 бокс находится по адресу Рыскулова 190 в здании типографии ныне Актобе Медиа, центральный вход.
+
+                                    Наш 2 бокс находится по адресу 11 мкр 112Г, ТЦ Актобе Ажары, 3ий этаж.
+
+                                    В ТЦ Актобе мол больше нет нашего бокса.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="slide-content">
+                            <div class="slide-inner">
+                                <div class="slide-image">
+                                  <img src="img/boomerang1.jpg" alt="Картинка 2">
+                                </div>
+                                <div class="slide-text">
+                                  <h2>Проект «Бумеранг Добра»</h2>
+                                  <p>Добрый день, уважаемые актюбинцы! 
+
+                                    Мы начинаем с супер бомбических новостей.
+
+                                    Частный благотворительный фонд «Фонд помощи продуктовая корзина» @fond_pomoshi_aqtobe установил 2 бокса «Бумеранг Добра».
+
+                                    У нас появились новые локации боксов. Боксы — бумеранг добра, которые рассчитаны на прием продуктовой помощи для нуждающихся семей.
+
+                                    Одна из точек по новой локации расположена по адресу:
+
+                                    Ул 101 дом 16 магазин Azia Shop @azia.icecream.kz работает до 19-00 без выходных. 
+
+                                    КР "Табыс", проспект Санкибай батыра, 24н.
+                                    Центральный главный вход.
+                                    @rynok_tabys_bazary
+
+                                    Помощь которая в дальнейшем будет
+                                    доставлена и выделена для нуждающихся семей. Любой желающий может оставить не скоропортящиеся продукты, став вкладом в отворительность.
+                                    Мы рассчитываем на вашу поддержку друзья, вместе мы сила.</p>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <div id="section5" class="container section">
+
+                <div class="footerr">
+
+                  <div class="footercon">
+                    
+                    <div class="footer_col req">
+                      <img src="img/logo.png" alt="">
+                      <p>Компания: Частный благотворительный фонд "Фонд помощи - Продуктовая корзина"</p>
+                      <p>Адрес: Казахстан, Актобе, Т.Рыскулова, дом 190</p>
+                      <p>БИН (ИИН): 220140005029</p>
+                      <p>Банк: AO "Kaspi Bank"</p>
+                      <p>КБе: 18</p>
+                      <p>БИК: CASPKZKA</p>
+                      <p>Номер счёта: KZ07722S000031972468</p>
+                    </div>
+
+                  </div>
+
+                  <div class="footercon">
+                    <div class="footer_row">
+                        <div class="footer_col vtoroy">
+                            <h3>Контакты</h3>
+                            <div class="footer_socials">
+                            <a class="socicons" href=""><img src="img/tt.png" alt=""></a>
+                            <a class="socicons" href=""><img src="img/inst.png" alt=""></a>
+                            <a class="socicons" href=""><img src="img/tg.png" alt=""></a>
+                            <a class="socicons" href="https://www.youtube.com/@Fond_pomoshi_aktobe_/featured"><img src="img/youtube.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
